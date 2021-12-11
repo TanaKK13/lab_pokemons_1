@@ -50,4 +50,4 @@ all_type = []
 for pokemon in pokemons_list:
         for type_pokemon in pokemon ['type']:
                 all_type.append(type_pokemon)
-print('Наиболее часо встречаются покемоныс типом:', statistics.mode(all_type))
+print('Наиболее часто встречаются покемоны с типом:', statistics.mode(all_type))
